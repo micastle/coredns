@@ -53,7 +53,7 @@ func (wh Whoami) ServeDNS(ctx context.Context, w dns.ResponseWriter, r *dns.Msg)
 
 	w.WriteMsg(a)
 
-	return 0, nil
+	return dns.RcodeSuccess, nil
 }
 
 // Name implements the Handler interface.

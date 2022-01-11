@@ -1,0 +1,4 @@
+.:53
+CoreDNS-1.8.6
+linux/amd64, go1.16.13, 
+[INFO] SIGTERM: Shutting down servers then terminating
