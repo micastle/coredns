@@ -6,9 +6,10 @@ echo server pid: $serverpid
 sleep 2
 
 
-#nslookup www.baidu.com 172.23.12.61
-
 dig @10.172.68.37 -p 9999 www.baidu.com
+
+nslookup -port=9999 www.baidu.com 10.172.68.37
+
 
 sleep 1
 echo stop the server $serverpid

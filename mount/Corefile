@@ -1,6 +1,6 @@
 . {
   log
   debug
-  whoami
   example
+  forward . /root/mount/resolv.conf
 }
